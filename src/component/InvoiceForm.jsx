@@ -112,7 +112,7 @@ const InvoiceForm = ({ invoice }) => {
 
   return (
     <div className="fixed inset-0 bg-black/50 flex items-start justify-center  z-50 px-3 sm:px-5 overflow-y-auto overflow-x-hidden">
-      <div className="bg-slate-800 w-full max-w-4xl rounded-lg p-4 sm:p-6 md:p-8 mt-5 mb-5">
+      <div className="bg-slate-800 w-full max-w-4xl rounded-lg p-4 sm:p-6 md:p-8 mt-5 mb-5 overflow-x-hidden">
         <div className="flex justify-between items-center mb-6">
           <h2 className="text-xl sm:text-2xl font-bold">
             {invoice ? "Edit Invoice" : "New Invoice"}
