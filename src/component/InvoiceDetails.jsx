@@ -17,7 +17,7 @@ const InvoiceDetails = ({ invoice }) => {
   };
 
   return (
-    <div className="bg-slate-800 rounded-lg p-4 sm:p-6">
+    <div className="bg-slate-800 rounded-lg p-4 sm:p-6 overflow-x-auto">
       <div
         className="
           flex 

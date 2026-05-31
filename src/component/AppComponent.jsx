@@ -17,8 +17,8 @@ const AppComponent = () => {
   //   console.log("Click");
   // };
   return (
-    <div className="bg-slate-900 text-white min-h-screen">
-      <div className="max-w-5xl mx-auto py-12 px-4">
+    <div className="bg-slate-900 text-white min-h-screen overflow-x-hidden">
+      <div className="max-w-5xl mx-auto py-12 px-4 overflow-x-hidden">
         <Header onNewInvoice={() => dispatch(toggleForm())}></Header>
 
         {selectedInvoice ? (
